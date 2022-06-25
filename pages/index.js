@@ -88,13 +88,13 @@ const Home = () => (
             <Link target="_blank">Sharechat Ads</Link>
           </NextLink>
         </Paragraph>
-        <Box align="center" my={4}>
+        {/* <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My portfolio
             </Button>
           </NextLink>
-        </Box>
+        </Box> */}
       </Section>
 
       <Section delay={0.3}>
