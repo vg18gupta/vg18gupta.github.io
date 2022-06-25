@@ -1,10 +1,10 @@
 {
-  "name": "craftzdog-homepage",
+  "name": "vishalgupta",
   "version": "1.0.0",
-  "description": "Takuya's website",
+  "description": "Vishal's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "prettier": "prettier --write .",
     "lint": "next lint",

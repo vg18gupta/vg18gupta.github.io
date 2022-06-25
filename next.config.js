@@ -1,4 +1,8 @@
 module.exports = {
   reactStrictMode: true,
-  swcMinify: true
+  swcMinify: true,
+  images: {
+    loader: 'akamai',
+    path: ''
+  }
 }
