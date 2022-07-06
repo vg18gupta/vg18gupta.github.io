@@ -1,7 +1,7 @@
-import Layout from '../components/layouts/main.tsx'
-import Fonts from '../components/fonts.tsx'
+import Layout from '../components/layouts/main'
+import Fonts from '../components/fonts'
 import { AnimatePresence } from 'framer-motion'
-import Chakra from '../components/chakra.tsx'
+import Chakra from '../components/chakra'
 
 if (typeof window !== 'undefined') {
   window.history.scrollRestoration = 'manual'

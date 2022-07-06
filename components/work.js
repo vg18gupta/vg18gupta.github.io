@@ -1,12 +1,8 @@
 import NextLink from 'next/link'
 import { Heading, Box, Image, Link, Badge } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import {FC} from 'react'
-interface TitleProps {
-  cookies: string;
-  children: any;
-}
-export const Title: FC<TitleProps> = ({ children }) => (
+
+export const Title = ({ children }) => (
   <Box>
     <NextLink href="/works" passHref>
       <Link>Works</Link>
