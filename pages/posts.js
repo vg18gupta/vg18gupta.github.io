@@ -1,7 +1,7 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
-import Layout from '../components/layouts/article.tsx'
-import Section from '../components/section.tsx'
-import { GridItem } from '../components/grid-item.tsx'
+import Layout from '../components/layouts/article'
+import Section from '../components/section'
+import { GridItem } from '../components/grid-item'
 
 import thumbPortfolio from '../public/images/contents/youtube-how-to-build-portfolio.jpg'
 const Posts = () => (
