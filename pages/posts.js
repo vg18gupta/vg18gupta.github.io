@@ -1,7 +1,7 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
-import Layout from '../components/layouts/article.tsx'
-import Section from '../components/section.tsx'
-import { GridItem } from '../components/grid-item.tsx'
+import Layout from '../components/layouts/article'
+import Section from '../components/section'
+import { GridItem } from '../components/grid-item'
 
 import thumbPortfolio from '../public/images/contents/youtube-how-to-build-portfolio.jpg'
 const Posts = () => (
@@ -16,6 +16,7 @@ const Posts = () => (
           <GridItem
             title="Using JavaScript for Safe Cross-Domain Communication"
             thumbnail={thumbPortfolio}
+            
             href="https://medium.com/@vg.vishal.gupta.10/using-javascript-and-window-postmessage-for-safe-cross-domain-communication-71651da4d1d9"
           />
         </SimpleGrid>

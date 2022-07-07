@@ -1,9 +1,9 @@
 import { forwardRef } from 'react'
-import { FC } from 'react'
+// import { FC } from 'react'
 import { Box, Spinner } from '@chakra-ui/react'
-interface DogContainerProps {
-  children: any
-}
+// interface DogContainerProps {
+//   children: any
+// }
 export const DogSpinner = () => (
   <Spinner
     size="xl"
@@ -15,7 +15,7 @@ export const DogSpinner = () => (
   />
 )
 
-export const DogContainer: FC<DogContainerProps> = forwardRef(({ children }, ref) => (
+export const DogContainer = forwardRef(({ children }, ref) => (
   <Box
     ref={ref}
     className="voxel-dog"

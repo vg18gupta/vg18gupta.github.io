@@ -12,11 +12,11 @@ import {
   chakra
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import Paragraph from '../components/paragraph.tsx'
-import { BioSection, BioYear } from '../components/bio.tsx'
-import Layout from '../components/layouts/article.tsx'
-import Section from '../components/section.tsx'
-import { GridItem } from '../components/grid-item.tsx'
+import Paragraph from '../components/paragraph'
+import { BioSection, BioYear } from '../components/bio'
+import Layout from '../components/layouts/article'
+import Section from '../components/section'
+import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
@@ -27,7 +27,7 @@ const ProfileImage = chakra(Image, {
 })
 
 const Home = () => (
-  <Layout>
+  <Layout title="">
     <Container>
       <Box
         borderRadius="lg"
@@ -140,7 +140,7 @@ const Home = () => (
           </ListItem>
         </List>
 
-        <Box align="center" my={4}>
+        <Box textAlign="center" my={4}>
           <NextLink href="/posts" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               Popular posts
