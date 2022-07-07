@@ -27,7 +27,7 @@ const ProfileImage = chakra(Image, {
 })
 
 const Home = () => (
-  <Layout>
+  <Layout title="">
     <Container>
       <Box
         borderRadius="lg"
@@ -140,7 +140,7 @@ const Home = () => (
           </ListItem>
         </List>
 
-        <Box align="center" my={4}>
+        <Box textAlign="center" my={4}>
           <NextLink href="/posts" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               Popular posts

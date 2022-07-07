@@ -16,6 +16,7 @@ const Posts = () => (
           <GridItem
             title="Using JavaScript for Safe Cross-Domain Communication"
             thumbnail={thumbPortfolio}
+            
             href="https://medium.com/@vg.vishal.gupta.10/using-javascript-and-window-postmessage-for-safe-cross-domain-communication-71651da4d1d9"
           />
         </SimpleGrid>

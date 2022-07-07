@@ -1,6 +1,9 @@
 import { forwardRef } from 'react'
+// import { FC } from 'react'
 import { Box, Spinner } from '@chakra-ui/react'
-
+// interface DogContainerProps {
+//   children: any
+// }
 export const DogSpinner = () => (
   <Spinner
     size="xl"
