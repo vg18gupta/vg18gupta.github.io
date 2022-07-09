@@ -4,7 +4,7 @@ import { Box, Text, LinkBox, LinkOverlay } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
 import { FC } from 'react';
 interface gridItemProps {
-  children: any,
+  children?: any,
   href?: string,
   title?: string,
   thumbnail?: any,

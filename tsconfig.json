@@ -101,7 +101,7 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx", "components/voxel-dog.js", "components/voxel-dog-loader.js", "components/section.js", "pages/works.js", "pages/posts.js"
+    "**/*.tsx", "components/voxel-dog.js", "components/voxel-dog-loader.js", "components/section.js", "pages/works.tsx", "pages/posts.tsx", "pages/_app.js"
   ],
   "exclude": [
     "node_modules"
