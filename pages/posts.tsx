@@ -3,7 +3,8 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import thumbPortfolio from '../public/images/contents/youtube-how-to-build-portfolio.jpg'
+import { postContent } from '../constants/index';
+
 const Posts = () => (
   <Layout title="Posts">
     <Container>
@@ -13,12 +14,13 @@ const Posts = () => (
 
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            title="Using JavaScript for Safe Cross-Domain Communication"
-            thumbnail={thumbPortfolio}
-            
-            href="https://medium.com/@vg.vishal.gupta.10/using-javascript-and-window-postmessage-for-safe-cross-domain-communication-71651da4d1d9"
-          />
+          {postContent.map((item) => (
+            <GridItem
+              title={item.title}
+              thumbnail={item.thumb}
+              href={item.href}
+            />
+          ))}
         </SimpleGrid>
       </Section>
     </Container>
